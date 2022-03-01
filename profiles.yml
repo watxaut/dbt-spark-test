@@ -1,0 +1,13 @@
+analytics:
+  outputs:
+    dev:
+      host: <host>
+      connect_retries: 5
+      connect_timeout: 60
+      method: thrift
+      port: 10015
+      schema: sandbox_dbt_spark_joan_heredia
+      threads: 5
+      type: spark
+      user: hadoop
+  target: dev
